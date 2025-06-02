@@ -15,7 +15,7 @@ Este proyecto es una aplicación de consola en Java que permite gestionar la inf
 * **Validación Básica de Entrada:** Se incluyen validaciones simples para las entradas del usuario desde la consola (ej. no permitir campos vacíos, validar IDs).
 * **Relación entre Entidades:** Las entidades `Autor` y `Libro` están relacionadas (un autor puede tener múltiples libros) a través de una clave foránea en la tabla `Libros`.
 
-## 2. Estructura del Proyecto
+## 2. Estructura del Proyecto (Toque EDIT FILE del Readme para poder ver la estructura bien)
 
 La organización del código sigue una estructura de capas clara para una mejor modularidad y mantenimiento:
 
