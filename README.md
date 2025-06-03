@@ -18,6 +18,7 @@ Este proyecto es una aplicación de consola en Java que permite gestionar la inf
 ## 2. Estructura del Proyecto (Toque EDIT FILE del Readme para poder ver la estructura bien)
 
 La organización del código sigue una estructura de capas clara para una mejor modularidad y mantenimiento:
+```
 
 ├── .gradle/                  # Archivos internos de Gradle (generados automáticamente)
 ├── build/                    # Directorio de salida de la compilación y empaquetado (generado por Gradle)
@@ -56,6 +57,7 @@ La organización del código sigue una estructura de capas clara para una mejor 
 ├── gradlew                   # Script de la envoltura de Gradle (para ejecutar comandos Gradle)
 ├── gradlew.bat               # Script de la envoltura de Gradle para Windows
 └── settings.gradle           # Configuración básica de Gradle para el proyecto
+```
 
 ## 3. Requisitos Previos
  Asegúrate de tener instalado lo siguiente en tu sistema: 
