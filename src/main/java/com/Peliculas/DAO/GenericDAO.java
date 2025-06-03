@@ -1,4 +1,4 @@
-package com.Biblioteca.DAO;
+package com.Peliculas.DAO;
 
 import java.sql.SQLException;
 import java.util.List;

@@ -25,7 +25,8 @@ dependencies {
 }
 
 application {
-    mainClass = 'com.Biblioteca.main.mainApp'
+    // Asegúrate de que este mainClass apunte a la nueva ruta si cambiaste el paquete
+    mainClass = 'com.Peliculas.main.mainApp'
 }
 
 tasks.named('run') {

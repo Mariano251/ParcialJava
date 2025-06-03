@@ -1,13 +1,13 @@
-package com.Biblioteca.model;
+package com.Peliculas.model;
 
-public class Autor {
+public class Director {
     private Long id;
     private String nombre;
     private String apellido;
 
-    public Autor() {}
+    public Director() {}
 
-    public Autor(Long id, String nombre, String apellido) {
+    public Director(Long id, String nombre, String apellido) {
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
@@ -23,7 +23,7 @@ public class Autor {
 
     @Override
     public String toString() {
-        return "Autor{" +
+        return "Director{" +
                 "id=" + id +
                 ", nombre='" + nombre + '\'' +
                 ", apellido='" + apellido + '\'' +
