@@ -12,12 +12,12 @@
     </Appenders>
 
     <Loggers>
-        <Logger name="com.yourcompany" level="DEBUG" additivity="false">
+        <Logger name="com.Biblioteca" level="DEBUG" additivity="false">
             <AppenderRef ref="ConsoleAppender"/>
             <AppenderRef ref="FileAppender"/>
         </Logger>
 
-        <Logger name="com.yourcompany.util" level="INFO" additivity="false">
+        <Logger name="com.Biblioteca.util" level="INFO" additivity="false">
             <AppenderRef ref="ConsoleAppender"/>
             <AppenderRef ref="FileAppender"/>
         </Logger>

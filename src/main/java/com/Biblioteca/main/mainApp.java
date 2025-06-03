@@ -250,7 +250,7 @@ public class mainApp {
         libro.setAnioPublicacion(anioPublicacion);
         libro.setAutorId(autorId);
         libroDAO.save(libro);
-        System.out.println("Libro creado exitosamente con ID: " + libro.getId());
+        logger.info("Libro creado exitosamente con ID: {}", libro.getId());
     }
 
     private static void listLibros() throws SQLException {
